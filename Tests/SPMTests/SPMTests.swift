@@ -16,7 +16,6 @@ final class SPMTests: XCTestCase {
 
         let process = Process()
         process.executableURL = fooBinary
-
         let pipe = Pipe()
         process.standardOutput = pipe
 
