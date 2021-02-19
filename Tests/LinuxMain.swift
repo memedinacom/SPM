@@ -1,7 +1,7 @@
 import XCTest
 
-import SPMTests
+import SPMDemoTests
 
 var tests = [XCTestCaseEntry]()
-tests += SPMTests.allTests()
+tests += SPMDemoTests.allTests()
 XCTMain(tests)
